@@ -1,0 +1,104 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+/* Left Section Styling */
+.left-section {
+    background-image: linear-gradient(#FF885B,#A1D6B2);
+    /* background-color: #2c2c2c; */
+    color: black;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom right,#A1D6B2, #FF885B);
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow: 0 0 15px #FF885B; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    background-image: linear-gradient(to bottom right,#A1D6B2, #FF885B);
+    padding: 3%;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right,#FF885B, #FF885B);
+    border: 3px solid #A1D6B2;
+}
+
+h3:hover{
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right,#FF885B, #FF885B);
+    border: 3px solid #A1D6B2;
+}
+
+.profile-picture:hover{
+    border: 5px solid #A1D6B2;
+    cursor: pointer;
+}
+
